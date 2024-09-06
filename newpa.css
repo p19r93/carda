@@ -1,0 +1,154 @@
+body
+{
+	margin:0;
+	padding:0;
+	font-family:Arial,Helvetica,sans-serif;
+	background-image:url("file:///D:/photo/carda1 (1).jpg");
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	
+	
+}
+.container{
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+.card{
+	width:340px;
+	height:280px;
+	padding:60px 40px 50px 40px;
+	background-image:url("file:///D:/photo/cardamom.jpg");
+	border-radius:10px;
+	position:absolute;
+	top:0;
+	right:300px;
+	
+	
+	
+}
+p{
+
+	font-size:1.5em;
+	font-style:italic;
+	color:white;
+}
+	
+	
+#name{
+	width:200px;
+	border:none;
+	background:transparent;
+	border-bottom:3px soild white;
+	padding:6px;
+	margin-bottom:20px;	
+}
+
+
+a{
+	font-size:13px;
+}
+header a{
+	text-decoration:none;
+	color:white;
+}
+.maintext{
+	color:white;
+	display:flex;
+	flex-direction:colum;
+	height:40vh;
+	justify-content:center;
+	padding:2em;
+}
+header{
+	display:flex;
+	padding:1em;
+}
+#logo{
+	flex:3;
+	font-size:1.25em;
+	color:white;
+}
+nav{
+	flex:2;
+	display:flex;
+}
+nav a{
+	flex:2;
+	display:flex;
+}
+nav a:hover{
+	color:black;
+}
+button{
+	height:20px;
+}
+.tagline1{
+	color:yellow;
+	font-size:2.5em;
+	font-weight:bolder;
+}
+
+i{
+color:red;
+}	
+.card2{
+	width:460px;
+	height:280px;
+	padding:60px 40px 50px 40px;
+	background-color:white;
+	border-radius:10px;
+	position:relative;
+	left:400px;
+	display:flex;
+	flex-grow:1;
+	
+}
+.slider { display: none; 
+} 
+.slideshow { 
+position: relative; 
+} 
+.prev, .next { position: absolute;
+top: 50%; 
+cursor: pointer; 
+padding: 15px; 
+font-size: 20px; 
+color: white;
+ margin-top: -30px; }
+ .next { 
+ right: 0;
+ } 
+ .prev:hover, 
+ .next:hover { 
+ background-color: black; 
+ } 
+ .dot { height: 5px;
+ width: 5px; 
+ background-color: gray; 
+ display: inline-block; 
+ border-radius: 50%; } 
+ .active { 
+ background-color: black; } 
+input[type="date"]{
+	background-color:#00080ff;
+	padding:10px;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	top:10%;
+	left:20%;
+	font-family:"Roboto mono",monospace;
+	font-size:10px;
+	border:none;
+	outline:none;
+	border-radius:5px;
+	 
+}
+::-webkit-calendar-picker-indicator{
+	padding:5px;
+	cursor:pointer;
+	border-radius:2px;
+}
+	
