@@ -1,0 +1,146 @@
+caption{
+	color:white;
+	font-family:Arial,Helvetica,sans-serif;
+	font-style:italic;
+	font-size:1.25em;
+	justify-content:center;
+}
+table,th,td{
+	border:3px solid;
+	border-collapse:collapse;
+	border:groove;
+	margin:30px;
+	font-size:20px;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	padding:0.5em;
+
+	
+}
+th{
+	background-color:yellow;
+	color:black;
+}
+tr:nth-child(even){
+background-color:lightgrey;
+color:white;
+}
+tr:nth-child(odd){
+background-color:silver;
+color:white;
+}
+#c1,#c2{
+padding-left:10px;
+text-align:right;
+line-height:30px;
+}
+.history{
+display:grid;
+grid-template-colum:1fr 1fr 1fr;
+color:white;
+}
+body
+{
+	margin:0;
+	padding:0;
+	font-family:Arial,Helvetica,sans-serif;
+	background-image:url("file:///D:/photo/cardamom.jpg");
+	background-size:cover;
+	background-position:center;
+	height:100vh;
+	
+	
+}
+.container{
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+}
+.card{
+	width:460px;
+	height:300px;
+	padding:60px 40px 50px 40px;
+	background-image:url("file:///D:/photo/cardamom.jpg");
+	border-radius:10px;
+	
+	
+}
+p{
+
+	font-size:1.5em;
+	font-style:italic;
+	color:white;
+}
+	
+	
+#name{
+	width:200px;
+	border:none;
+	background:transparent;
+	border-bottom:3px soild white;
+	padding:6px;
+	margin-bottom:20px;	
+}
+
+#button{
+	border-radius:20px;
+	padding:10px, 20px;
+	background:dodgerblue;
+	color:white;
+	margin-top:20px;
+	border:none;
+	outline:none;
+	margin-left:50px;	
+}
+a{
+	font-size:13px;
+}
+header a{
+	text-decoration:none;
+	color:white;
+}
+.maintext{
+	color:white;
+	display:flex;
+	flex-direction:colum;
+	height:40vh;
+	justify-content:center;
+	padding:2em;
+}
+header{
+	display:flex;
+	padding:1em;
+}
+#logo{
+	flex:3;
+	font-size:1.25em;
+	color:white;
+}
+nav{
+	flex:2;
+	display:flex;
+}
+nav a{
+	flex:2;
+	display:flex;
+}
+nav a:hover{
+	color:black;
+}
+button{
+	height:20px;
+}
+.tagline1{
+	color:yellow;
+	font-size:2.5em;
+	font-weight:bolder;
+}
+
+i{
+color:red;
+}	
+
+
+
